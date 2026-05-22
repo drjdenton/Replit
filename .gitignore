@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Build output
+dist/
+build/
+.next/
+out/
+.cache/
+.vite/
+
+# Runtime/local files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Replit/local platform files
+.replit
+replit.nix
+.config/
+.upm/
+
+# Credentials/secrets
+*secret*
+*credentials*
+firebase-applet-config.json
+serviceAccount*.json
+*.pem
+*.key
